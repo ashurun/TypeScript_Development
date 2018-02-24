@@ -26,25 +26,23 @@
                 <div class="card-body py-5">
                     <div class="row no-gutters">
                         <div class="col-md-3">
-                            <input type="number" class="form-control" >
+                            <input type="number" class="form-control" id="firstNumber">
                         </div>
                         <div class="col-md-1">
-                            <a class="btn btn-indigo">
-                                +
-                            </a>
+                            <button class="btn btn-indigo" id="operator">+</button>
                         </div>
                         <div class="col-md-3 ml-3">
-                            <input type="number" class="form-control">
+                            <input type="number" class="form-control" id="secondNumber">
                         </div>
                         <div class="col-md-1">
-                            <a class="btn btn-indigo">
+                            <button class="btn btn-indigo" id="equals-button">
                                 <i class="fa fa-arrow-alt-circle-right"></i>
-                            </a>
+                            </button>
                         </div>
                         <div class="col-md-3 ml-3 mt-1">
-                            <a class="btn btn-success btn-block">
+                            <button class="btn btn-success btn-block" id="result-button">
                                 result
-                            </a>
+                            </button>
                         </div>
                     </div>
                     <div class="row align-items-center">
@@ -52,11 +50,11 @@
                             <h4>Choose Operator : </h4>
                         </div>
                         <div class="col-md-9">
-                            <a class="btn btn-indigo">+</a>
-                            <a class="btn btn-indigo">-</a>
-                            <a class="btn btn-indigo">/</a>
-                            <a class="btn btn-indigo">*</a>
-                            <a class="btn btn-danger">Clear</a>
+                            <button class="btn btn-indigo" id="plus-button">+</button>
+                            <button class="btn btn-indigo" id="minus-button">-</button>
+                            <button class="btn btn-indigo" id="divide-button">/</button>
+                            <button class="btn btn-indigo" id="multiply-button">*</button>
+                            <button class="btn btn-danger" id="clear-button">Clear</button>
                         </div>
 
                     </div>
